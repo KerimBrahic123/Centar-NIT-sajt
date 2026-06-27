@@ -18,14 +18,24 @@ export default function RootLayout({
     <html>
     
       <body>
-        
-    <Link href="nit-trening-centar">NIT trening centar/</Link>
-    <Link href="nit-inkubator">NIT inkubator/</Link>
-    <Link href="nit-zajednica">NIT zajednica/</Link>
-    <Link href="uspesne-price">Uspešne price/</Link>
-    <Link href="o-nama">O nama/</Link>
-    <Link href="kontakt">Kontakt/</Link>
+        <footer>
+         <header className="bg-gray-100 p-4 flex justify-between items-center">
+          <a href="/">
+          <img src="Nit.png" alt="" style={{height:"67px"}} />
+          </a>
+      <div className="font-bold text-xl"></div>
+      <nav className="flex gap-4">
+        <Link href="/">Home</Link>
+        <Link href="nit-trening-centar">NIT trening centar/</Link>
+    <Link href="nit-inkubator">NIT inkubator</Link>
+    <Link href="nit-zajednica">NIT zajednica</Link>
+    <Link href="uspesne-price">Uspešne price</Link>
+    <Link href="o-nama">O nama</Link>
+    <Link href="kontakt">Kontakt</Link>
 
+      </nav>
+    </header>
+    </footer>
         {children}</body>
     </html>
   );

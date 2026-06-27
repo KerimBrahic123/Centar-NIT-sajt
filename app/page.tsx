@@ -1,10 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Centar-Nit</h1>
-      <p></p>
-    </div>
+   <p>Dobrodosli</p>
   );
 }
